@@ -1,0 +1,12 @@
+package com.myspace.mortgage_app;
+
+import java.lang.Number;
+
+rule "MortgageMachineReasoning"
+	dialect "mvel"
+	ruleflow-group "mortgagemachinereasoning"
+	when
+		app : Application( mortgageamount <= app.property.saleprice )
+	then
+		app.setInlimitMR( true );
+end
