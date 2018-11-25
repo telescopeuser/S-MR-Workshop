@@ -1,6 +1,6 @@
 ﻿<img align="right" src='http://www.aisp.sg/images/APP/ISS.jpg' width=25%>
 
-# Machine Reasoning Workshops & References
+## Machine Reasoning Workshops & References
 
 **This [Machine Reasoning (MR)](https://www.iss.nus.edu.sg/executive-education/course/detail/machine-reasoning "Machine Reasoning") course is part of the Analytics and Intelligent Systems and Graduate Certificate in [Intelligent Reasoning Systems (IRS)](https://www.iss.nus.edu.sg/stackable-certificate-programmes/intelligent-systems "Intelligent Reasoning Systems") series offered by [NUS-ISS](https://www.iss.nus.edu.sg "Institute of Systems Science, National University of Singapore").**
 
