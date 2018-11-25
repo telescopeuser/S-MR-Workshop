@@ -1,4 +1,4 @@
-﻿[![](http://www.aisp.sg/images/APP/ISS.jpg)](https://www.iss.nus.edu.sg "Institute of Systems Science")
+﻿<img align="right" src='http://www.aisp.sg/images/APP/ISS.jpg' width=25%>
 
 # Machine Reasoning Workshops & References
 
