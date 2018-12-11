@@ -1,0 +1,16 @@
+ID,Age,Has_job,Own_house,Credit_rating,Outcome
+1,young,False,False,fair,No
+2,young,False,False,good,No
+3,young,True,False,good,Yes
+4,young,True,True,fair,Yes
+5,young,False,False,fair,No
+6,middle,False,False,fair,No
+7,middle,False,False,good,No
+8,middle,True,True,good,Yes
+9,middle,False,True,excellent,Yes
+10,middle,False,True,excellent,Yes
+11,old,False,True,excellent,Yes
+12,old,False,True,good,Yes
+13,old,True,False,good,Yes
+14,old,True,False,excellent,Yes
+15,old,False,False,fair,No
