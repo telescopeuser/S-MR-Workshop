@@ -11,9 +11,7 @@
 **zhan.gu@nus.edu.sg**
 
 ---
-
-### Open and refer to file: S-MR Workshop Guide.pdf
-
+### Open and refer to file: [S-MR Workshop Guide.pdf](https://github.com/IRS-MR/S-MR-Workshop/blob/master/S-MR%20Workshop%20Guide.pdf)
 ---
 
 Institute of Systems Science
@@ -28,9 +26,10 @@ Workshop Project (Continuous Assessment) Guide
 
 Subject: Machine Reasoning
 
-
 •	Source impactful real life business scenario for workshop project. 
+
 •	Conduct comprehensive research and reference reading.
+
 •	Make your own reasonable assumptions where necessary.
 
 
@@ -47,48 +46,73 @@ Once you get KIE product suite installed, it’s time to see some running use ca
 
 
 ### Workshop 1.1 [ Individual ]
+
 KIE system: New user creation using admin user: wbadmin
 
 Role controls user’s access to KIE product suite (Workbench roles);
+
 Group controls user’s access to bespoke business system developed by KIE Workbench/product suit (Task roles);
 New user creation procedure:
+
 •	Step 1 Create all new users, and assign them relevant Roles (No new Group is ready).
+
 •	Step 2 Create new Group, and link created new users.
+
 Reference https://github.com/IRS-MR/S-MR-Workshop/blob/master/S-MR-Workshop1/KIE-Users.xlsx
 
 
 ### Workshop 1.2 [ Individual ]
+
 KIE example system: Evaluation process
 
 Evaluation process is a business process that is human centric (heavily uses human actors to perform work) that defines a complete flow of activities to perform employee evaluation. This examples shows:
+
 •	importing example project
+
 •	building and deploying project
+
 •	verifying deployment to execution server
+
 •	executing process instance and work with human tasks
+
 •	exploring reporting capabilities
+
 Reference https://www.youtube.com/watch?v=-fxL2iioPRI
 
 
 ### Workshop 1.3 [ Individual ]
+
 KIE system development 1: Build your ‘getting-started’ project from scratch
+
 Building new project from scratch can give you an option to have a clean start where you design your process or case to fit your needs. This example shows:
+
 •	creating new project
+
 •	creating new asset - business process
+
 •	build and deploy to execution server
+
 •	execute process instance
+
 Reference https://www.youtube.com/watch?time_continue=3&v=pdgj0hrF5rc
 
 
 KIE system development 2: Enhance above ‘getting-started’ project
+
 Enhance above system by adding a Staff data object & an UpdateStaffRole machine reasoning business rule task to update staff role based on certain conditions:
+
 •	When staff role filed is empty, OR
+
 •	When staff name is e.g. ‘Sam’ AND staff number is e.g. ‘65674’
+
 •	Then update staff role to e.g. ‘Lecturer’
+
 Reference https://github.com/IRS-MR/S-MR-Workshop/tree/master/S-MR-Workshop1/project-io/getting-started.zip
 
 
 ### Workshop 1.4 [ Individual ]
 Reasoning system analysis & exploration: Housing & Development Board Build-To-Order Recommender
+
 Reference https://github.com/IRS-MR/bto-recommender-system
 
 
@@ -97,14 +121,21 @@ Reference https://github.com/IRS-MR/bto-recommender-system
 
 ### Workshop 2.1 [ Individual ]
 KIE example system: Mortgage loan application process
+
 Mortgage process is a business process that is a blended human actors and automated machine reasoning process that defines a complete flow of activities to perform home loan application and approval. 
+
 Reference https://github.com/IRS-MR/S-MR-Workshop
+
 S-MR-Workshop2/project-io/example-Mortgage_Process.zip	
 
 Machine Reasoning Enhanced Mortgage loan application process 
+
 New Business Rule Task: MortgageMachineReasoning
+
 Create a new new ' MortgageMachineReasoning' business rule task to replace 'Qualify' Human Task for automated mortgage loan in-limit checking. 
+
 Reference https://github.com/IRS-MR/S-MR-Workshop
+
 S-MR-Workshop2/project-io/Mortgage_Process_ISS_MR.zip	
 
 Reference https://www.youtube.com/watch?v=s_8rct45b84
@@ -113,14 +144,21 @@ Reference https://github.com/IRS-MR/S-MR-Workshop/tree/master/S-MR-Workshop2
 
 
 ### Workshop 2.2 [ Individual ]
+
 Knowledge Modeling
+
 Identify a business opportunity to use reasoning system
+
 Study online documented knowledge source as knowledge acquisition
+
 Compose knowledge models in spreadsheets
 
 Candidate Project: HDB BTO; Airport Gate Assignment System (AGAS); DoReMi; and alike
+
 Reference 
+
 Workshop 1.3 [Individual] https://github.com/IRS-MR/bto-recommender-system
+
 ANNEX 1 WORKSHOP PROJECT CANDIDATE	
 
 
@@ -128,17 +166,25 @@ ANNEX 1 WORKSHOP PROJECT CANDIDATE
 
 
 ### Workshop 3.1 [ Individual ]
+
 Data-Mining Enhanced Mortgage loan application process
+
 Data mining / Rule induction / Orange3 decision tree
 
 Extract business rule from data using inductive reasoning, e.g. bank loan example
+
 Enhance KIE home loan system using the discovered knowledge, based upon: 
 •	Workshop 2.1 [ Individual ] Machine Reasoning Enhanced Mortgage loan application process
 Export enhanced KIE system and prepare for individual submission
+
 Reference 
+
 Guided Decision Tables https://www.youtube.com/watch?v=qBgxVoc2qfw
+
 https://github.com/IRS-MR/S-MR-Workshop/tree/master/S-MR-Workshop3
+
 ANNEX 2 PROJECT CODE EXPORT & IMPORT USING KIE WORKBENCH
+
 ANNEX 3 WORKSHOP PROJECT SUBMISSION	
 
 
@@ -147,6 +193,7 @@ ANNEX 3 WORKSHOP PROJECT SUBMISSION
 https://github.com/IRS-MR/S-MR-Workshop/blob/master/S-MR-Workshop3/Mortgage_Process_ISS_MR.zip
 
 •	New Business Rule Task	: Mortgage Machine Reasoning DT
+
 •	New Guided Decision Table	: mortgagemachinereasoningDT
 
 
@@ -156,38 +203,53 @@ Build & Deploy
 Use/Test Case 1
 
 1st stage Approved: $200,000 Mortgage Amount: within limit mortgage amount 200,000 >= property sale price 250,000 – down payment 50,000
+
 2nd stage Approved: InLimitMR checked: applicant has job
 
 
 Use/Test Case 2
 
 1st stage Approved: $200,000 Mortgage Amount: within limit mortgage amount 200,000 >= property sale price 250,000 – down payment 50,000
+
 2nd stage Approved: InLimitMR checked: jobless applicant owning a house
 
 
 Use/Test Case 3
 
 1st stage Approved: $200,000 Mortgage Amount: within limit mortgage amount 200,000 >= property sale price 250,000 – down payment 50,000
+
 2nd stage Disapproved: InLimitMR unchecked: jobless applicant not owning a house
 
 
 ### Workshop 3.2 [ EEP Individual / MTech Group ]
 
 Identify a relevant business scenario/problem. Propose and create a knowledge-driven machine reasoning system.
+
 The proposed grand workshop project must develop, integrate, and demonstrate at least two out of following three technique groups: 
+
 1.	Business knowledge/rule based reasoning techniques
+
 2.	Business knowledge/process based reasoning techniques 
+
 3.	Knowledge Discovery OR Data Mining techniques 
 The submitted runnable system should have a graphical user interface for end user to input or update data to execute different business use cases, e.g. Web or KIE form based user interface. And to display system output results in a user friendly manner. (Output console log is not considered user friendly.)
 
 Grand project phase 1: Initialization 
+
 Form team (MTech Thru-Train: 4 to 6 persons per project team)
+
 Solicit business scenario / MVP
+
 Design knowledge models
+
 [Workshop 4] System Development / SDLC
+
 [Workshop 4] MVP delivery & Documentation
+
 Reference 
+
 ANNEX 1 WORKSHOP PROJECT CANDIDATE
+
 Workshop 2.2 [ Individual ] Knowledge Modeling	
 
 
@@ -195,19 +257,31 @@ Workshop 2.2 [ Individual ] Knowledge Modeling
 
 
 ### Workshop 4.1 [ EEP Individual / MTech Group ]
+
 Grand project phase 2: Development  
+
 [Workshop 3] Form team (MTech Thru-Train: 4 to 6 persons per project team)
+
 [Workshop 3] Solicit business scenario / MVP
+
 Design knowledge models
+
 System Development / SDLC
+
 MVP delivery & Documentation
+
 Reference Workshop 3.2 Grand project phase 1: Initialization	
 
 Grand project phase 3: MVP Delivery  
+
 EEP & MTech Stackable: Submission due by 23:59 on last lecture date
+
 MTech Thru-Train: Submission due by 23:59 on last lecture day + 14 
+
 Reference 
+
 ANNEX 2 PROJECT CODE EXPORT & IMPORT USING KIE WORKBENCH
+
 ANNEX 3 WORKSHOP PROJECT SUBMISSION	
 
 ### ANNEX 1 WORKSHOP PROJECT CANDIDATE
@@ -259,13 +333,13 @@ Mr. Lim:	We have a set of tables (pointing to the laminated papers) to refer to.
 You:	I think I’ve taken too much of your time. Can I come back to you tomorrow to verify my understanding of what we discussed today? Thank you, Mr. Lim.
 
 
-
 [End of Interview]
 
 
 ### Workshop Project Candidate Two
 
 DoReMi Books Inc.
+
 1. 	Background
 DoReMi Books is a company that specializes in the supply and sale of classical music scores and music books in the USA with subsidiaries in the major cities of each of the 50 states. An important line of business for the company is the supply of music books to music schools. These schools buy books in bulk for their students and are given special bulk-package discounts. Sales to music schools constitute 30% of the annual revenue of DoReMi.
 The organization structure of the company is shown below.
@@ -338,28 +412,37 @@ Review project settings to obtain project URL link
 Export project from KIE Workbench
 
 1.	Select a folder for exporting, example here uses /home/iss-user/iss-vm-program/is-intelligent-reasoning-systems/jboss/project-io
+
 2.	Start a Terminal there, key in command git clone ssh://wbadmin@localhost:8001/MySpace/Mortgage_Process_ISS_MR
+
 3.	Key in password ‘wbadmin’ for user wbadmin
 
 
 Import project into KIE Workbench
 
 1.	In KIE workbench, select/create a project Space, example here uses ISS-MR
+
 2.	Click menu function ‘Import Project’
+
 3.	For Repository URL, key in file:///home/iss-user/iss-vm-program/is-intelligent-reasoning-systems/jboss/project-io/Mortgage_Process_ISS_MR
 
 Reference
+
 https://developer.jboss.org/thread/269991
+
 https://developer.jboss.org/thread/237411
+
 https://developer.jboss.org/thread/252588
 
 
 ### ANNEX 3 WORKSHOP PROJECT SUBMISSION
 
 Submission due by 23:59 on last lecture date (+ 14)
+
 One delayed day = 10 marks deduction
 
 1.	[MTech & EEP] Create Github repository for project submission
+
 2.	[MTech] Download Github repository as a ZIP file, then upload to NUS LumiNUS / IVLE
 
 Reference https://github.com/IRS-PM/Workshop-Project-Submission-Template
