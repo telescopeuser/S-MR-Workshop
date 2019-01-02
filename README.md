@@ -12,7 +12,9 @@
 
 ---
 
-### Refer to: S-MR Workshop Guide.pdf
+### Open and refer to file: S-MR Workshop Guide.pdf
+
+---
 
 Institute of Systems Science
 
@@ -363,4 +365,4 @@ One delayed day = 10 marks deduction
 Reference https://github.com/IRS-PM/Workshop-Project-Submission-Template
 
 
-The End of Workshop Project Guide
+### The End of Workshop Project Guide
