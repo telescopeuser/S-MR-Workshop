@@ -11,8 +11,6 @@
 **zhan.gu@nus.edu.sg**
 
 ---
-### Open and refer to file: [S-MR Workshop Guide.pdf](https://github.com/IRS-MR/S-MR-Workshop/blob/master/S-MR%20Workshop%20Guide.pdf)
----
 
 Institute of Systems Science
 
